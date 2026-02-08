@@ -1,9 +1,353 @@
 {
-    "users":[
-
-    ],
-    "jobs":[
-
-    ],
-    "application":[]
+  "users": [
+    {
+      "id": 1,
+      "username": "ts_user",
+      "email": "ts@gmail.com",
+      "role": "user",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "username": "recruiter_raj",
+      "email": "tinu@gmail.com",
+      "role": "recruiter",
+      "password": "123456"
+    },
+    {
+      "id": 3,
+      "username": "ananya_dev",
+      "email": "ananya@gmail.com",
+      "role": "user",
+      "password": "123456"
+    },
+    {
+      "id": 4,
+      "username": "hr_meera",
+      "email": "meera.hr@gmail.com",
+      "role": "recruiter",
+      "password": "123456"
+    },
+    {
+      "id": 5,
+      "username": "frontend_kiran",
+      "email": "kiran@gmail.com",
+      "role": "user",
+      "password": "123456"
+    },
+    {
+      "id": 6,
+      "username": "backend_arjun",
+      "email": "arjun@gmail.com",
+      "role": "user",
+      "password": "123456"
+    },
+    {
+      "id": 7,
+      "username": "recruiter_sana",
+      "email": "sana.hr@gmail.com",
+      "role": "recruiter",
+      "password": "123456"
+    },
+    {
+      "id": 8,
+      "username": "uiux_neha",
+      "email": "neha@gmail.com",
+      "role": "user",
+      "password": "123456"
+    },
+    {
+      "id": 9,
+      "username": "admin_rohit",
+      "email": "rohit.admin@gmail.com",
+      "role": "recruiter",
+      "password": "123456"
+    },
+    {
+      "id": 10,
+      "username": "intern_akash",
+      "email": "akash@gmail.com",
+      "role": "user",
+      "password": "123456"
+    },
+    {
+      "username": " bijo",
+      "email": "bijo@gmail.com",
+      "role": "user",
+      "password": "123456",
+      "id": 11
+    },
+    {
+      "username": " ts",
+      "email": "ts2@gmail.com",
+      "role": "recruiter",
+      "password": "123456",
+      "id": 12
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "category": "Software",
+      "type": "Full-time",
+      "description": "Build responsive UI using Angular and Bootstrap.",
+      "requirements": "Angular, HTML, CSS, TypeScript",
+      "workSetup": "Remote",
+      "lastdate": "2026-02-13",
+      "location": "India",
+      "min": 10000,
+      "max": 20000
+    },
+    {
+      "id": 2,
+      "title": "React Developer",
+      "category": "Software",
+      "type": "Full-time",
+      "description": "Develop reusable React components.",
+      "requirements": "React, JavaScript, Tailwind",
+      "workSetup": "Hybrid",
+      "lastdate": "2026-02-15",
+      "location": "Bangalore",
+      "min": 15000,
+      "max": 30000
+    },
+    {
+      "id": 3,
+      "title": "Backend Developer",
+      "category": "Software",
+      "type": "Full-time",
+      "description": "Create REST APIs and manage databases.",
+      "requirements": "Node.js, Express, MongoDB",
+      "workSetup": "Onsite",
+      "lastdate": "2026-02-20",
+      "location": "Chennai",
+      "min": 18000,
+      "max": 35000
+    },
+    {
+      "id": 4,
+      "title": "UI/UX Designer",
+      "category": "Design",
+      "type": "Full-time",
+      "description": "Design clean and modern interfaces.",
+      "requirements": "Figma, Adobe XD",
+      "workSetup": "Remote",
+      "lastdate": "2026-02-18",
+      "location": "India",
+      "min": 12000,
+      "max": 25000
+    },
+    {
+      "id": 5,
+      "title": "QA Tester",
+      "category": "Testing",
+      "type": "Full-time",
+      "description": "Test applications and report bugs.",
+      "requirements": "Manual Testing, Automation basics",
+      "workSetup": "Hybrid",
+      "lastdate": "2026-02-22",
+      "location": "Kochi",
+      "min": 9000,
+      "max": 18000
+    },
+    {
+      "id": 6,
+      "title": "DevOps Engineer",
+      "category": "Cloud",
+      "type": "Full-time",
+      "description": "Manage CI/CD pipelines and cloud infra.",
+      "requirements": "AWS, Docker, Git",
+      "workSetup": "Remote",
+      "lastdate": "2026-02-25",
+      "location": "India",
+      "min": 25000,
+      "max": 45000
+    },
+    {
+      "id": 7,
+      "title": "Angular Developer",
+      "category": "Software",
+      "type": "Full-time",
+      "description": "Build scalable Angular applications.",
+      "requirements": "Angular, RxJS, TypeScript",
+      "workSetup": "Onsite",
+      "lastdate": "2026-02-19",
+      "location": "Trivandrum",
+      "min": 14000,
+      "max": 28000
+    },
+    {
+      "id": 8,
+      "title": "Data Analyst",
+      "category": "Analytics",
+      "type": "Full-time",
+      "description": "Analyze data and generate reports.",
+      "requirements": "Excel, SQL, Power BI",
+      "workSetup": "Hybrid",
+      "lastdate": "2026-02-21",
+      "location": "Mumbai",
+      "min": 16000,
+      "max": 32000
+    },
+    {
+      "id": 9,
+      "title": "Content Writer",
+      "category": "Marketing",
+      "type": "Part-time",
+      "description": "Write blogs and technical articles.",
+      "requirements": "SEO, Content Writing",
+      "workSetup": "Remote",
+      "lastdate": "2026-02-17",
+      "location": "India",
+      "min": 8000,
+      "max": 15000
+    },
+    {
+      "id": 10,
+      "title": "Digital Marketer",
+      "category": "Marketing",
+      "type": "Full-time",
+      "description": "Handle social media and campaigns.",
+      "requirements": "SEO, Google Ads",
+      "workSetup": "Onsite",
+      "lastdate": "2026-02-24",
+      "location": "Delhi",
+      "min": 12000,
+      "max": 22000
+    },
+    {
+      "id": 11,
+      "title": "Mobile App Developer",
+      "category": "Software",
+      "type": "Full-time",
+      "description": "Develop Android and iOS apps.",
+      "requirements": "Flutter, Dart",
+      "workSetup": "Hybrid",
+      "lastdate": "2026-02-26",
+      "location": "Pune",
+      "min": 20000,
+      "max": 40000
+    },
+    {
+      "id": 12,
+      "title": "HR Executive",
+      "category": "Human Resources",
+      "type": "Full-time",
+      "description": "Manage hiring and employee relations.",
+      "requirements": "Communication, Recruitment",
+      "workSetup": "Onsite",
+      "lastdate": "2026-02-16",
+      "location": "Kolkata",
+      "min": 10000,
+      "max": 18000
+    },
+    {
+      "id": 13,
+      "title": "System Administrator",
+      "category": "IT Support",
+      "type": "Full-time",
+      "description": "Maintain servers and systems.",
+      "requirements": "Linux, Networking",
+      "workSetup": "Onsite",
+      "lastdate": "2026-02-23",
+      "location": "Hyderabad",
+      "min": 17000,
+      "max": 30000
+    },
+    {
+      "id": 14,
+      "title": "AI Engineer",
+      "category": "Artificial Intelligence",
+      "type": "Full-time",
+      "description": "Build AI/ML models.",
+      "requirements": "Python, ML, TensorFlow",
+      "workSetup": "Remote",
+      "lastdate": "2026-02-28",
+      "location": "India",
+      "min": 30000,
+      "max": 60000
+    },
+    {
+      "id": 15,
+      "title": "Intern Web Developer",
+      "category": "Software",
+      "type": "Internship",
+      "description": "Assist in web development tasks.",
+      "requirements": "HTML, CSS, JavaScript",
+      "workSetup": "Remote",
+      "lastdate": "2026-02-14",
+      "location": "India",
+      "min": 5000,
+      "max": 10000
+    }
+  ],
+  "application": [
+    {
+      "useremail": "arun@gmail.com",
+      "jobid": 1,
+      "status": 2,
+      "id": 1
+    },
+    {
+      "useremail": "meera@yahoo.com",
+      "jobid": 2,
+      "status": 2,
+      "id": 2
+    },
+    {
+      "useremail": "rahul@outlook.com",
+      "jobid": 3,
+      "status": 3,
+      "id": 3
+    },
+    {
+      "useremail": "neha@gmail.com",
+      "jobid": 4,
+      "status": 3,
+      "id": 4
+    },
+    {
+      "useremail": "vishnu@gmail.com",
+      "jobid": 5,
+      "status": 1,
+      "id": 5
+    },
+    {
+      "useremail": "anita@yahoo.com",
+      "jobid": 6,
+      "status": 1,
+      "id": 6
+    },
+    {
+      "useremail": "kiran@outlook.com",
+      "jobid": 7,
+      "status": 1,
+      "id": 7
+    },
+    {
+      "useremail": "deepa@gmail.com",
+      "jobid": 8,
+      "status": 1,
+      "id": 8
+    },
+    {
+      "useremail": "rohit@yahoo.com",
+      "jobid": 9,
+      "status": 1,
+      "id": 9
+    },
+    {
+      "useremail": "sneha@outlook.com",
+      "jobid": 10,
+      "status": 1,
+      "id": 10
+    },
+    {
+      "useremail": "ts@gmail.com",
+      "jobid": 1,
+      "status": 1,
+      "id": 11
+    }
+  ]
 }
